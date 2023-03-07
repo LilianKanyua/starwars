@@ -1,0 +1,96 @@
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding: 0px 40px;
+    margin-left: 40px;
+}
+.nav2{
+    display: flex;
+    margin: 20px 20px;
+    padding:10px 20px;
+    background-color: yellow;
+
+}
+#brick{
+    width:30px;
+    height:30px;
+    margin: 0px;
+    padding:0px 30px;
+}
+#text{
+    padding:0px 0px;
+}
+#cat{
+margin:10px 30px;
+padding:10px 40px;
+}
+#search{
+    margin:10px 30px;
+padding:10px 80px;
+}
+#lord{
+    width:500px;
+    height:auto;
+}
+.sec1{
+    display:flex;
+    justify-content: space-around;
+}
+.flex2{
+    border: 1px solid gray;
+    padding: 0px 60px 60px 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+#box1{
+    border: 2px solid yellow;
+    padding:10px 20px;
+}
+.numbers{
+    display:flex;
+   
+}
+#num{
+    border: 2px solid gray;
+    padding:10px 10px;
+    margin:0px 10px;
+}
+#Series{
+    margin:10px 0px;
+    padding:15PX 130PX;
+}
+#select{
+    margin:10px 0px;
+    padding:15px 200px;
+    background-color: yellow;
+}
+.ser1{
+    display: flex;
+}
+#image{
+    width:250px;
+    height:250px;
+    padding: 20px 20px;
+}
+#but1, #but2,#but3, #but4{
+    margin:0px 10px;
+    border-radius: 10px;
+}
+#but1, #but3, #but4{
+    background-color: #DE3163;
+}
+#but2{
+    background-color: yellow;
+}
+.ser2{
+    display: flex;
+}
+#img2{
+    width:250px;
+    height:250px;
+    padding:20px 20px;
+}
