@@ -91,6 +91,26 @@ padding:10px 80px;
 }
 #img2{
     width:250px;
-    height:250px;
+    height:200px;
     padding:20px 20px;
 }
+.box9,.box10, .box11, .box12{
+    display: flex;
+}
+#img3{
+    width:350px;
+    height: 200px;
+    padding:20px 20px;
+    margin:20px 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+#img4{
+    width:200px;
+    height:200px;
+    padding: 20px 30px;
+    margin:20px 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
