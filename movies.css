@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 ul{
     display: flex;
 }
@@ -10,7 +15,7 @@ li{
     display: flex;
     margin: 20px 20px;
     padding:10px 20px;
-    background-color: yellow;
+    background-color: #FFD600;
 
 }
 #brick{
@@ -47,11 +52,12 @@ padding:10px 80px;
     justify-content: space-between;
 }
 #box1{
-    border: 2px solid yellow;
+    border: 2px solid #FFD600;
     padding:10px 20px;
 }
 .numbers{
     display:flex;
+    padding:20px 20px;
    
 }
 #num{
@@ -66,7 +72,7 @@ padding:10px 80px;
 #select{
     margin:10px 0px;
     padding:15px 200px;
-    background-color: yellow;
+    background-color:#FFD600;
 }
 .ser1{
     display: flex;
@@ -81,10 +87,10 @@ padding:10px 80px;
     border-radius: 10px;
 }
 #but1, #but3, #but4{
-    background-color: #DE3163;
+    background-color: #E70062;
 }
 #but2{
-    background-color: yellow;
+    background-color: #FFD600;
 }
 .ser2{
     display: flex;
@@ -113,4 +119,52 @@ padding:10px 80px;
     border: 2px solid white;
     border-radius: 50px;
 }
+.ser4{
+    display: flex;
+}
+#img5{
+    margin:20px 20px;
+    width:300px;
+    height:300px;
+    padding:20px 20px;
 
+}
+.ser5{
+    display: flex;
+    margin:20px 40px 0px 40px;
+    padding:20px  20px 0px 20px;
+    background-color: #FFD600;
+}
+#email{
+    padding: 20px 60px;
+  margin-left:80px;
+  background-color: white;
+  border:2px solid gainsboro;
+  border-radius: 10px;
+}
+#send{
+    margin:0px 0px;
+    padding:0px 20px;
+    border:2px solid #E70062;
+    border-radius: 10px;
+    background-color: #E70062;
+}
+.footer{
+    display: flex;
+    margin:0px 40px;
+    background-color: #26004C;
+}
+#head{
+    padding:40px;
+    text-align: center;
+}
+#more{
+    margin-left: 50%;
+    border:2px solid#FFD600;
+    background-color: #FFD600;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.foot1, .foot2, .foot3, .foot4{
+    padding:0px 60px 0px 60px;
+}
