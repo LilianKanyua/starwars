@@ -1,0 +1,205 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    padding-top: 0%;
+    margin-left: 20%;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 30px;
+    border: 2px #FFD600;
+    background-color: #FFD600;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 50px;
+
+}
+#cat{
+padding:10px 40px;
+border:1px solid white;
+border-radius: 10px;
+}
+#search{
+padding: 10px 80px;
+border:1px solid white;
+border-radius: 10px;
+}
+#flag{
+    width:30px;
+    height:20px;
+    margin-left: 10%;
+}
+.nav1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    align-items: center;
+
+}
+.nav1 li a{
+    text-decoration: none;
+    justify-content: space-between;
+    color:black;
+  
+}
+#logo{
+    width:30px;
+    height:30px;
+   
+}
+.top{
+    background-image: url(/catalogue/images.2/warslogo.jpg);
+    background-position: center;
+    padding: 30px;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    margin:0px 40px;
+    background-color: #26004C;
+}
+.box11, .box12{
+    justify-content: space-around;
+}
+.foot1 ul{
+list-style-type: none;
+}
+.foot2 ul{
+list-style-type: none;
+    }
+.foot3 ul{
+list-style-type: none;
+        }
+.foot1 ul li{
+           
+padding:10px;
+            }
+.foot2 ul li{
+           
+padding:10px;
+            }
+.foot3 ul li{
+           
+padding:10px;
+             } 
+.foot1 ul li a{
+           
+text-decoration: none;
+color: black;
+}                            
+.foot2 ul li a{
+    text-decoration: none;
+    color:black
+    }
+.foot3 ul li a{
+    text-decoration: none;
+    color: black;
+        }   
+        #hfoot{
+            padding-bottom: 10px;
+            padding-right: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot1, .foot2, .foot3, .foot4{
+    padding:0px 60px 0px 60px;
+}
+
+.foot1 ul{
+list-style-type: none;
+}
+.foot2 ul{
+list-style-type: none;
+    }
+.foot3 ul{
+list-style-type: none;
+        }
+.foot1 ul li{
+           
+padding:10px;
+            }
+.foot2 ul li{
+           
+padding:10px;
+            }
+.foot3 ul li{
+           
+padding:10px;
+             } 
+.foot1 ul li a{
+           
+text-decoration: none;
+color: black;
+}                            
+.foot2 ul li a{
+    text-decoration: none;
+    color:black
+    }
+.foot3 ul li a{
+    text-decoration: none;
+    color: black;
+        }   
+        #hfoot{
+            padding-bottom: 10px;
+            padding-right: 10px;
+        }

@@ -1,62 +1,81 @@
-@media (min-width: 600px) and (max-width: 768px) {
-    body{ 
-    }
-  }
-ul{
-    display: flex;
+*{
+    margin:0%;
+    padding: 0%;
 }
-li{
-    list-style-type: none;
-    padding: 0px 40px;
-    margin-left: 40px;
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0%;
+    margin-left: 20%;
 }
 .nav2{
     display: flex;
-    margin: 20px 20px;
-    padding:10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 30px;
+    border: 2px #FFD600;
     background-color: #FFD600;
+    margin-left: 40px;
+    margin-right: 40px;
 
 }
-#brick{
-    width:30px;
-    height:30px;
-    margin: 0px;
-    padding:40px 30px;
-}
-#text{
-    padding:40px 0px;
-}
 #cat{
-margin: 30px 70px;
-padding:10px 70px;
+padding:10px 40px;
+border:1px solid white;
+border-radius: 10px;
 }
 #search{
-   margin:30px 70px;
-   padding:10px 60px;
-   background-color: white;
-   border: 2px solid white;
+padding: 10px 80px;
+border:1px solid white;
+border-radius: 10px;
 }
-#lord{
-    width:500px;
-    height:auto;
+#flag{
+    width:30px;
+    height:20px;
 }
+.nav1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    align-items: center;
+
+}
+.nav1 li a{
+    text-decoration: none;
+    justify-content: space-between;
+    color:black;
+  
+}
+#logo{
+    width:30px;
+    height:30px;
+   
+}
+/* @media (min-width: 600px) and (max-width: 768px) { */
+    /* body{  */
+    /* } */
+  /* } */
+
 .sec1{
-    display:flex;
-    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+
 }
-.flex2{
-    border: 1px solid gray;
-    padding: 0px 60px 60px 20px;
-}
+.lord{
+    width: 600px;
+    height: 400px;}
 .box{
-    margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    padding: 20px 20px;
 }
-#box1{
-    border: 2px solid #FFD600;
-    padding:10px 20px;
-}
+
 .numbers{
     display:flex;
     padding:20px 20px;
@@ -78,24 +97,34 @@ padding:10px 70px;
 }
 .ser1{
     display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
 }
-#image{
-    width:250px;
-    height:250px;
-    padding: 20px 20px;
-}
+
 #but1, #but2,#but3, #but4{
-    margin:0px 10px;
+    margin:10px 10px;
     border-radius: 10px;
+    padding:2px;
 }
 #but1, #but3, #but4{
     background-color: #E70062;
+    border: 1px solid #E70062
 }
 #but2{
     background-color: #FFD600;
+    border: 1px solid #FFD600;
 }
 .ser2{
     display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.price{
+    display: flex;
+}
+#image{
+    width: 250px;
+    height: 250px;
 }
 #img2{
     width:250px;
@@ -123,6 +152,7 @@ padding:10px 70px;
 }
 .ser4{
     display: flex;
+    justify-content: space-around;
 }
 #img5{
     margin:20px 20px;
@@ -136,9 +166,10 @@ padding:10px 70px;
     margin:20px 40px 0px 40px;
     padding:20px  20px 0px 20px;
     background-color: #FFD600;
+    border:2px solid 
 }
 #email{
-    padding: 20px 60px;
+  padding: 20px 60px;
   margin-left:80px;
   background-color: white;
   border:2px solid gainsboro;
@@ -162,7 +193,7 @@ padding:10px 70px;
 }
 #more{
     margin-left: 50%;
-    border:2px solid#FFD600;
+    border:1px solid#FFD600;
     background-color: #FFD600;
     border-radius: 10px;
     padding: 10px 10px;
@@ -174,3 +205,47 @@ padding:10px 70px;
     margin:20px 20px;
     padding:20px 20px;
 }
+#range{
+    padding: 20px;
+}
+.box11, .box12{
+    justify-content: space-around;
+}
+.foot1 ul{
+list-style-type: none;
+}
+.foot2 ul{
+list-style-type: none;
+    }
+.foot3 ul{
+list-style-type: none;
+        }
+.foot1 ul li{
+           
+padding:10px;
+            }
+.foot2 ul li{
+           
+padding:10px;
+            }
+.foot3 ul li{
+           
+padding:10px;
+             } 
+.foot1 ul li a{
+           
+text-decoration: none;
+color: black;
+}                            
+.foot2 ul li a{
+    text-decoration: none;
+    color:black
+    }
+.foot3 ul li a{
+    text-decoration: none;
+    color: black;
+        }   
+        #hfoot{
+            padding-bottom: 10px;
+            padding-right: 10px;
+        }
