@@ -259,3 +259,34 @@ color: black;
         
         /* } */
     /* } */
+
+    @media (max-width: 900px) {
+       
+        .nav1,.nav2{
+            flex-direction: column;
+            width: 30%;
+            padding-bottom: 5%;
+        }
+        .lord{
+            width: 100%;
+            height: auto;
+        }
+        .sec1 {
+          flex-direction: column;
+          width: 20%;
+        }
+        .ser1,.ser2,.ser3, .ser4, .ser5, .footer {
+            flex-direction: column;
+            width: 20%;
+            height: auto;
+          }
+          .box9, .box10, .box11, .box12{
+              flex-direction: column;
+              width: 20%;
+          }
+          .flex2{
+              width:30%;
+          }
+      }
+
+    
