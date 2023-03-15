@@ -1,6 +1,7 @@
 *{
     margin:0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 .nav1{
@@ -186,6 +187,7 @@ border-radius: 10px;
     display: flex;
     margin:0px 40px;
     background-color: #26004C;
+    color:white;
 }
 #head{
     padding:40px;
@@ -235,15 +237,15 @@ padding:10px;
 .foot1 ul li a{
            
 text-decoration: none;
-color: black;
+
 }                            
 .foot2 ul li a{
     text-decoration: none;
-    color:black
+    
     }
 .foot3 ul li a{
     text-decoration: none;
-    color: black;
+    
         }   
         #hfoot{
             padding-bottom: 10px;
