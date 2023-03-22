@@ -165,9 +165,9 @@ border-radius: 10px;
 .ser5{
     display: flex;
     margin:20px 40px 0px 40px;
-    padding:20px  20px 0px 20px;
+    padding:20px  20px 20px 20px;
     background-color: #FFD600;
-    border:2px solid 
+    border:2px solid yellow;
 }
 #email{
   padding: 20px 60px;
@@ -188,6 +188,7 @@ border-radius: 10px;
     margin:0px 40px;
     background-color: #26004C;
     color:white;
+    padding-top: 20px;
 }
 #head{
     padding:40px;
@@ -202,6 +203,7 @@ border-radius: 10px;
 }
 .foot1, .foot2, .foot3, .foot4{
     padding:0px 60px 0px 60px;
+    color:white;
 }
 #icon{
     margin:20px 20px;
@@ -237,14 +239,17 @@ padding:10px;
 .foot1 ul li a{
            
 text-decoration: none;
+color: white;
 
 }                            
 .foot2 ul li a{
     text-decoration: none;
+    color: white;
     
     }
 .foot3 ul li a{
     text-decoration: none;
+    color: white;
     
         }   
         #hfoot{
@@ -262,15 +267,15 @@ text-decoration: none;
         /* } */
     /* } */
 
+    
     @media (max-width: 900px) {
-       
+     
         .nav1,.nav2{
             flex-direction: column;
-            width: 30%;
-            padding-bottom: 5%;
+           width:40%;
         }
         .lord{
-            width: 100%;
+            width: 500%;
             height: auto;
         }
         .sec1 {
@@ -279,16 +284,23 @@ text-decoration: none;
         }
         .ser1,.ser2,.ser3, .ser4, .ser5, .footer {
             flex-direction: column;
-            width: 20%;
+            width:100%;
             height: auto;
           }
           .box9, .box10, .box11, .box12{
               flex-direction: column;
               width: 20%;
-          }
-          .flex2{
-              width:30%;
-          }
-      }
-
-    
+            }
+            
+            .flex1{
+                width:50%;
+            }
+            .flex2{
+                width:100%;
+            }
+            //.numbers{
+                width:500%;
+                height: auto;
+            //}
+        }
+   

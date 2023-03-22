@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.nav1{
+    width:100%;
+    display: flex;
+    padding-bottom: 30px;
+
+}
+.nav1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color:black;
+    padding:30px;
+}
+.nav2{
+    
+    display: flex;
+    padding: 30px;
+    background-color: yellow;
+}
+#flag{
+    width:30px;
+    height:20px;
+    margin-left: 30%;
+    
+}
+.brand{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#cat{
+    padding-right:40px;
+    margin-right: 30px;
+    padding-left: 10px;
+    border:1px solid white;
+    border-radius: 10px;
+    }
+#search{
+    padding-right: 10px;
+    padding-left: 100px;
+    border:1px solid wheat;
+    border-radius: 10px;
+    }
+#logo{
+    width:30px;
+    height:30px;
+}
+#icon{
+    padding-left: 70px;
+}
+.container1{
+    display:flex;
+}
+#star{
+    width:30px;
+    height:30px;
+}
+.box1{
+    display: flex;
+}
+.delivery{
+    display: flex;
+}
+#icon1{
+    width:50px;
+    height:50px;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+}
+.box3{
+    display: flex;
+}
+#but1{
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid#E70062;
+    background-color: #E70062;
+}
+.lego{
+    display: flex;
+}
+
+#img, #img2{
+    padding-left: 20px;
+    margin-right: 10px
+}.buttons{
+    display:flex;
+    margin-left: 9%;
+    margin-top: 5%;
+}
+#about, #rev, #vid{
+    padding: 10px 30px;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+#about{
+    background-color: yellow;
+    border:1px solid yellow;
+
+}
+#rev{
+    border: 1px solid white;
+    background-color: white;
+}
+#vid{
+    border: 1px solid white;
+    background-color: white;
+}
+.img3{
+    margin-top: 7%;
+}
+#par{
+    margin-left: 7%;
+    font-size: larger;
+    margin-top: 5%;
+}
+
+#icon2{
+    width:100px;
+    height:100px;
+}
+#rob1{
+    width:300px;
+    height:300px;
+    border:2px solid yellow;
+    border-radius: 20px;
+    padding: 30px 50px;
+    margin-right: 3%;
+    margin-left:10% ;
+   
+}
+#rob2{
+    width:300px;
+    height:300px;
+    border:2px solid yellow;
+    border-radius: 20px;
+    padding: 30px 50px;
+    margin-left: 5%;
+    
+}
+#rob3{
+    width:300px;
+    height:300px;
+    border:2px solid yellow;
+    border-radius: 20px;
+    padding: 30px 90px;
+    margin-left: -30%;
+    
+}
+.small{
+    display:flex;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#img1{
+    display: flex;
+    margin-left: 20%;
+}
+
+#h2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.bot{
+    display:flex;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#bot{
+    width:300px;
+    height:300px;
+    padding-left: 6%;
+}
+
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #260046;
+    color: white;
+    margin: 5%;
+
+}
+.foot1 ul{
+    list-style-type: none;
+    }
+    .foot2 ul{
+    list-style-type: none;
+        }
+    .foot3 ul{
+    list-style-type: none;
+            }
+    .foot1 ul li{
+               
+    padding:10px;
+                }
+    .foot2 ul li{
+               
+    padding:10px;
+                }
+    .foot3 ul li{
+               
+    padding:10px;
+                 } 
+    .foot1 ul li a{
+               
+    text-decoration: none;
+    color: white;
+    
+    }                            
+    .foot2 ul li a{
+        text-decoration: none;
+        color: white;
+        
+        }
+    .foot3 ul li a{
+        text-decoration: none;
+        color: white;
+        
+            }   
+            #hfoot{
+                padding-bottom: 10px;
+             
+                padding-right: 10px;
+            }
+            .last{
+                display:flex;
+                justify-content: space-around;
+                margin-top:5%;
+                padding-left: 50px;
+            }
+            
+            .last2{
+                display: flex;
+              
+            }
+            #p{
+                display: flex;
+                padding-left: 70px;
+            }
+            h1{
+                padding-left: 30px;
+            }
+            #img1{
+                width:400px;
+                height:400px;
+            }
+            #img{
+                width:200px;
+                height: 200px;
+            }
+            #img2{
+                width:100px;
+                height:100px;
+            }
