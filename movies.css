@@ -36,6 +36,7 @@ border-radius: 10px;
 #flag{
     width:30px;
     height:20px;
+    margin-right: 40%;
 }
 .nav1 ul li{
     list-style-type: none;
@@ -268,39 +269,71 @@ color: white;
     /* } */
 
     
-    @media (max-width: 900px) {
+    @media screen and (max-width: 767px){
      
         .nav1,.nav2{
-            flex-direction: column;
-           width:40%;
+            flex-wrap: wrap;
+            width:50%;
+            padding-bottom: 30px;
         }
+        .nav2{
+    flex-wrap: wrap;
+    width:50%;
+    margin-bottom: 30px;
+        }
+       #cat, #search{
+     margin-bottom: 30px;
+       }
+
         .lord{
-            width: 500%;
-            height: auto;
+            flex-wrap: wrap;
+            width:200px;
+            height:200px;
         }
         .sec1 {
-          flex-direction: column;
-          width: 20%;
+            flex-wrap: wrap;
+            width:200px;
+          
         }
+        .select{
+            width:200px;
+        }
+        #series{
+            padding-left:-10%;
+            padding-right:-10%;
+        }
+        #image,#im2{
+            width:200px;
+            height:200px;
+        }
+        #email{
+            width: -20%;
+      }
         .ser1,.ser2,.ser3, .ser4, .ser5, .footer {
-            flex-direction: column;
-            width:100%;
-            height: auto;
+          flex-wrap: wrap;  
+          width:200px;
           }
           .box9, .box10, .box11, .box12{
-              flex-direction: column;
-              width: 20%;
+            flex-wrap: wrap; 
+            width:200px;
             }
-            
+            .box{
+                flex-wrap: wrap;
+                width:200px;
+               
+            }
             .flex1{
-                width:50%;
+                flex-wrap: wrap; 
+                width:200px;
             }
             .flex2{
-                width:100%;
+                flex-wrap: wrap; 
+                width:200px;
             }
-            //.numbers{
-                width:500%;
-                height: auto;
-            //}
+        .numbers{
+            flex-wrap: wrap; 
+            width:200px;
+            }
+         
         }
    
