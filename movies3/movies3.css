@@ -266,3 +266,19 @@
                 width:100px;
                 height:100px;
             }
+            @media screen and (max-width: 767px){
+     
+                .nav1,.nav2{
+                    flex-wrap: wrap;
+                    width:50%;
+                    padding-bottom: 30px;
+                }
+                .nav2{
+            flex-wrap: wrap;
+            width:50%;
+            margin-bottom: 30px;
+                }
+               #cat, #search{
+             margin-bottom: 30px;
+               }
+               }
