@@ -274,53 +274,25 @@ color:white;
             padding-right: 10px;
         }
  
-
-        @media (max-width: 900px) {
-            body{
-                margin:0px;
-                padding: 10px;
-            }
+        @media screen and (max-width: 767px){
+     
             .nav1,.nav2{
-                flex-direction: column;
-                width: 40%;
-                height:auto;
-                padding-bottom: 20px;
-                margin-left: 1%;
+                flex-wrap: wrap;
+                width:50%;
+                padding-bottom: 30px;
             }
-            #image{
-                width: 40%;
-                height: auto;
+            .nav2{
+        flex-wrap: wrap;
+        width:50%;
+        margin-bottom: 30px;
             }
-          .side{
-            margin-left: 1%;
-          }
-            .flex1,.flex2,.flex3, .flex4, .flex5, .footer {
-                flex-direction: column;
-                width: 60%;
-                height: auto;             
-               margin-top: 5%;
-               padding-left: 3px;
-                 padding-right: 3px;
-                 padding-right: -3px;
-              
-              }
-              .box1, .box2, .box3{
-                  width:70%;
-                  padding-bottom: 5%;
-                  margin-left: 0%;
-                  margin-right: 0%;
-                 margin-top: 10%;
-                 padding-right: 3px;
-              }
-              .page{
-     width:100%;
-     margin-left :10%;
-     padding-left: 2px;
-              }
-              #see{
-      width:20%;
-              }
-           
-          }
-    
-        
+           #cat, #search{
+         margin-bottom: 30px;
+           }
+           .side{
+               flex-wrap: wrap;
+           }
+           .flex1{
+               flex-wrap: wrap;
+           }
+        }
