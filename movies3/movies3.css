@@ -267,18 +267,95 @@
                 height:100px;
             }
             @media screen and (max-width: 767px){
-     
-                .nav1,.nav2{
-                    flex-wrap: wrap;
-                    width:50%;
+     body{
+         width:80%;
+     }
+                .nav1{
+                    width:78%;
                     padding-bottom: 30px;
                 }
+                .nav1 ul li a{
+                    flex-wrap: wrap;
+                    width:78%;
+                }
                 .nav2{
+                    display:flex;
             flex-wrap: wrap;
-            width:50%;
+            width:79%;
             margin-bottom: 30px;
                 }
                #cat, #search{
              margin-bottom: 30px;
+               }
+               .lego{
+                   flex-wrap: wrap;
+                   width:60%;
+               }
+               #rob1,#rob2{
+                   width: 200px;
+                   height: 200px;
+               }
+               #rob3{
+                   width:220px;
+                   height: 220px;
+               }
+               .bot{
+                   flex-wrap: wrap;
+               }
+               #bot{
+                   width:150px;
+                   height:150px;
+               }
+               #img1{
+                   
+                   width:150px;
+                   height:300px;
+                   margin-left: 3%;
+                   
+               }
+               .foot1,.foot2,.foot3,.last{
+                   flex-wrap: wrap;
+                   width:77%;
+               }
+               #star{
+                   flex-wrap: wrap;
+                   width:14px;
+               }
+               #text1,#text2{
+               width:70%;
+               }
+               .delivery{
+                   flex-wrap: wrap;
+               }
+               .address{
+                   flex-wrap: wrap;
+               }
+               #img{
+                   width:150px;
+                   height:200px;
+                
+               }
+               .small{
+                   margin-left: 0%;
+                flex-wrap: wrap;
+               }
+              /* .flex1{
+                  display: flex;
+                  flex-wrap: wrap;
+                  width:100%;
+                
+              } */
+              
+              .buttons{
+                  flex-wrap: wrap;
+              }
+              #par{
+                  flex-wrap: wrap;
+                  width:50%;
+              }
+               #img2{
+                   width: 100px;
+                   height:150px;
+                  width:50%;
                }
                }
