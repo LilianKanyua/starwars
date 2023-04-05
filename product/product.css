@@ -1,9 +1,5 @@
-.
-*{
-    margin: 0;
-    box-sizing: border-box;
-}
-nav1{
+
+.nav1{
     display: flex;
     align-items: center;
     padding-top: 0%;
@@ -77,13 +73,31 @@ border-radius: 10px;
     margin-bottom: 2%;
     margin-top: 4%;
 }
-#save,#order{
+#save{
     margin-top: 5%;
-    padding-left: 20px;
-    padding-right: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
     padding-top: 10px;
     margin-left: 4%;
     margin-bottom: 5%;
+    border:1px solid green;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.class1{
+    width:40%;
+}
+#order{
+    margin-top: 5%;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 10px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    background-color: #FFD600;
+    color:white;
+    border-radius:10px;
+    border:1px solid #FFD600;
 }
 
 .container2{
@@ -100,12 +114,18 @@ border-radius: 10px;
     margin-left: 4%;
 }
 .walker{
-    display: flex;
-    justify-items: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 40px;
 }
 .box1,.box3,.box2{
     display: flex;
     
+}
+#discount{
+    border:1px solid #E70062;
+    background-color: #E70062;
+    border-radius: 5px;
 }
 #img4{
     width:60%;
@@ -218,25 +238,95 @@ color:white;
             padding-right: 10px;
         }
 
-
         @media (min-width: 300px) and (max-width: 950px){
-          
-            .nav1{
-                grid-template-columns: 1fr;
-                margin-left: 2%;
-            }
+               .nav1{
+                   display: grid;
+                   grid-template-columns: 1fr;
+                   margin-left: 0;
+                   width:70%;
+               }
+               .nav2{
+                   display:grid;
+                   grid-template-columns: 1fr;
+                   margin-left: 0;
+                   width:70%;
+                  margin-top: 10%;
+                  background-color: #FFD600;
+                  margin-bottom: 10%;
+               }
+              
+               .sec1{
+                   grid-template-columns: 1fr;
+                   width:70%;
+                   
+                
+               }
+               #cat,#search{
+                   width:30%;
+                   margin-top: 10%;
+               }
+               #icon{
+                   margin-top: 1%;
+               }
+               .container1{
+                   grid-template-columns: 1fr;
+                   width:95%;
+                   margin-top: 40%;
+               }
+               .container2{
+                   grid-template-columns: 1fr;
+                   width:80%;
+               }
+               .products{
+                   grid-template-columns: 1fr;
+                   width:70%;
+                   margin-top: 40%;
+                   margin-bottom: 10%;
+               }
+               #save{
+                   width:70%;
+               }
+               #order{
+                   width:70%;
+               }
+               .footer{
+                   display: grid;
+                   grid-template-columns: 1fr;
+                   margin-left: 0;
+                   width:70%;
+               }
+               .foot1,.foot2,.foot3,.foot4,.last{
+                   margin-left:0 ;
+               }
+        }
+         /* @media (min-width: 300px) and (max-width: 950px){
+    .nav1{
+              grid-template-columns: 1fr;
+          }
             .nav2{
-                display:grid;
-                grid-template-columns: 1fr;
-                padding: 20px;
+        
+                /* grid-template-columns: 1fr; */
+                /* padding: 20px;
                 margin-left: 0;
+                width:40%
             }
             #cat{
-                width:60%;
+                width:20%;
+            }
+            #save{
+                width:30%;
+                padding-left: 20px;
+                padding-right: 40px;
+            }
+            #order{
+                width:30%;
+                padding-left: 20px;
+                padding-right: 40px;
             }
             .sec1{
+                display: grid;
                 grid-template-columns: 1fr;
-                width:100px;
+                width:100%;
             }
             .container1{
                 grid-template-columns: 1fr;
@@ -265,4 +355,4 @@ color:white;
                 font-size: 20%;
                 
             }
-        }
+        }  */
