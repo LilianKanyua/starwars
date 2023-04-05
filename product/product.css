@@ -55,18 +55,14 @@ border-radius: 10px;
     height:20px;
 }
 
-.container1{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  
-}
 .products{
     border:2px solid black;
     border-radius: 20px;
-    margin-bottom: 90%;
     padding-top: 20px;
     padding-left: 20px;
-}
+    float:left;
+    margin-right: 50%;
+} 
 .class1{
     display: flex;
     justify-content: space-between;
@@ -99,6 +95,10 @@ border-radius: 10px;
     border-radius:10px;
     border:1px solid #FFD600;
 }
+.container1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 
 .container2{
     display: grid;
@@ -110,7 +110,7 @@ border-radius: 10px;
     height:20px;
 }
 #img1{
-    width:30%;
+    width:20%;
     margin-left: 4%;
 }
 .walker{
@@ -118,10 +118,7 @@ border-radius: 10px;
     grid-template-columns: 2fr 1fr;
     padding-left: 40px;
 }
-.box1,.box3,.box2{
-    display: flex;
-    
-}
+
 #discount{
     border:1px solid #E70062;
     background-color: #E70062;
@@ -134,11 +131,11 @@ border-radius: 10px;
     width:60%;
 }
 #img2{
-    width:50%;
+    width:30%;
    
 }
 #img3{
-    width:35%;
+    width:25%;
     margin-left: 4%;
 }
 #img6{
@@ -243,13 +240,13 @@ color:white;
                    display: grid;
                    grid-template-columns: 1fr;
                    margin-left: 0;
-                   width:70%;
+                   width:100%;
                }
                .nav2{
                    display:grid;
                    grid-template-columns: 1fr;
                    margin-left: 0;
-                   width:70%;
+                   width:100%;
                   margin-top: 10%;
                   background-color: #FFD600;
                   margin-bottom: 10%;
@@ -257,7 +254,7 @@ color:white;
               
                .sec1{
                    grid-template-columns: 1fr;
-                   width:70%;
+                   width:100%;
                    
                 
                }
@@ -270,7 +267,7 @@ color:white;
                }
                .container1{
                    grid-template-columns: 1fr;
-                   width:95%;
+                   width:100%;
                    margin-top: 40%;
                }
                .container2{
@@ -279,7 +276,7 @@ color:white;
                }
                .products{
                    grid-template-columns: 1fr;
-                   width:70%;
+                   width:100%;
                    margin-top: 40%;
                    margin-bottom: 10%;
                }
@@ -293,7 +290,7 @@ color:white;
                    display: grid;
                    grid-template-columns: 1fr;
                    margin-left: 0;
-                   width:70%;
+                   width:100%;
                }
                .foot1,.foot2,.foot3,.foot4,.last{
                    margin-left:0 ;
