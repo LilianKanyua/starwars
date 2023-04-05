@@ -306,7 +306,24 @@ color:white;
                   background-color: #FFD600;
                   margin-bottom: 10%;
                }
-              
+              .cont{
+                  display: grid;
+                  grid-template-columns: 1fr;
+              }
+              .ord{
+                  display: grid;
+                  grid-template-columns: 1fr;
+              }
+              .parag{
+                  display: grid;
+                  grid-template-columns: 1fr;
+                  width:70%;
+              }
+              .parag2{
+                  display:grid;
+                  grid-template-columns: 1fr;
+                  width:30%;
+              }
                .sec1{
                    grid-template-columns: 1fr;
                    width:100%;
@@ -328,6 +345,13 @@ color:white;
                .container2{
                    grid-template-columns: 1fr;
                    width:80%;
+               }
+               #your{
+                   margin-top: 18%;
+               }
+               .product{
+                   margin-top: 10%;
+                   width:70%;
                }
                .products{
                    grid-template-columns: 1fr;
