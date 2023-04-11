@@ -273,12 +273,13 @@ color: white;
      
         .nav1,.nav2{
             flex-wrap: wrap;
-            width:50%;
+            width:100%;
             padding-bottom: 30px;
+            margin-left: 2%;
         }
         .nav2{
     flex-wrap: wrap;
-    width:50%;
+    width:100%;
     margin-bottom: 30px;
         }
        #cat, #search{
@@ -286,54 +287,91 @@ color: white;
        }
 
         .lord{
-            flex-wrap: wrap;
+            
             width:200px;
             height:200px;
         }
         .sec1 {
-            flex-wrap: wrap;
-            width:200px;
+            display:grid;
+            grid-template-columns: 1fr;
+            width:100%;
           
         }
+        #select{
+            padding-left: 30%;
+            padding-right: 30%;
+            
+        }
+        #send{
+          padding:3%;
+          width:30%;
+          margin-top: 2%;
+          margin-left: 40%;
+        }
         .select{
-            width:200px;
+            width:100%;
+            margin-left: 0em;
         }
         #series{
-            padding-left:-10%;
-            padding-right:-10%;
+            margin-left: 0.5%;
+            
         }
         #image,#im2{
-            width:200px;
-            height:200px;
+            width:50%;
         }
         #email{
-            width: -20%;
+          width:50%;
+           
       }
-        .ser1,.ser2,.ser3, .ser4, .ser5, .footer {
-          flex-wrap: wrap;  
-          width:200px;
+      .ser5{
+        width:100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 1%;
+    }
+      .sec5{
+          width:100%;
+          display: grid;
+          grid-template-columns: 1fr;
+      }
+        .ser1,.ser2,.ser3, .ser4{
+          display: grid; 
+          grid-template-columns: 1fr;
+          width:100%;
+          margin-left: 1%;
+
           }
           .box9, .box10, .box11, .box12{
-            flex-wrap: wrap; 
-            width:200px;
+            display: grid; 
+          grid-template-columns: 1fr;
+          width:100%;
             }
             .box{
-                flex-wrap: wrap;
-                width:200px;
+                display: grid; 
+          grid-template-columns: 1fr;
+          width:100%;
                
             }
             .flex1{
-                flex-wrap: wrap; 
-                width:200px;
+                display: grid; 
+          grid-template-columns: 1fr;
+          width:100%;
             }
-            .flex2{
-                flex-wrap: wrap; 
-                width:200px;
-            }
+           #more{
+               width:30%;
+           }
         .numbers{
-            flex-wrap: wrap; 
-            width:200px;
+            display: grid; 
+          grid-template-columns: 1fr;
+          
+          width:20%;
             }
-         
+           
+            .footer{
+                display: grid;
+                grid-template-columns: 1fr;
+                margin-left: 0;
+                width:100%;
+            }
         }
    
