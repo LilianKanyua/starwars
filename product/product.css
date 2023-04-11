@@ -305,6 +305,7 @@ color:white;
                   margin-top: 10%;
                   background-color: #FFD600;
                   margin-bottom: 10%;
+                  padding-bottom: 60%;
                }
               .cont{
                   display: grid;
@@ -313,11 +314,13 @@ color:white;
               .ord{
                   display: grid;
                   grid-template-columns: 1fr;
+                  width:97%;
+                  margin-left: 1%;
               }
               .parag{
                   display: grid;
                   grid-template-columns: 1fr;
-                  width:70%;
+                  margin-left: 1%;
               }
               .parag2{
                   display:grid;
@@ -331,8 +334,9 @@ color:white;
                 
                }
                #cat,#search{
+                   margin-top: 3%;
                    width:30%;
-                   margin-top: 10%;
+                   
                }
                #icon{
                    margin-top: 1%;
