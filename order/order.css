@@ -93,7 +93,7 @@
 #head{
     margin-left: 3%;
 }
-@media (min-width: 300px) and (max-width: 950px){
+@media (min-width: 300px) and (max-width: 960px){
     .top{
         display: grid;
         grid-template-columns: 1fr;
@@ -101,19 +101,32 @@
     }
     .section1{
         grid-template-columns: 1fr;
+        width:100%;
     }
     .deliver{
         grid-template-columns: 1fr;
+        width:100%;
     }
     .payment{
         display:grid;
         grid-template-columns: 1fr;
+        width:100%;
     }
     .part2{
         margin-top: 4%;
         margin-bottom: 4%;
     }
 }
+@media (min-width: 961px){
+    .section1{
+        display: grid;
+        grid-template-columns:2fr 1fr ;
+    }
+    .deliver,.payment{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
    
 
     
